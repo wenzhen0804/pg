@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zhen Wen | Medical Engineering</title>
+  <meta name="description" content="Personal academic website of Zhen Wen – M.Sc. Medical Engineering, TU Munich. Embedded systems, medical robotics, and additive manufacturing." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <nav class="navbar">
+    <div class="container">
+      <span class="nav-brand">Zhen Wen</span>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#education" class="nav-link" data-i18n="navEducation">Education</a></li>
+        <li><a href="#experience" class="nav-link" data-i18n="navExperience">Experience</a></li>
+        <li><a href="#projects" class="nav-link" data-i18n="navProjects">Projects</a></li>
+        <li><a href="#publications" class="nav-link" data-i18n="navPublications">Publications</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="navContact">Contact</a></li>
+        <li><button class="lang-btn" id="lang-toggle">中文</button></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== Hero / About ===== -->
+  <header class="hero" id="about">
+    <div class="hero-content">
+      <img src="ZhenWen.png" alt="Zhen Wen" class="hero-avatar" />
+      <div class="hero-text">
+        <h1 data-i18n="heroName">Zhen Wen</h1>
+        <p class="subtitle" data-i18n="heroTitle">Medical Engineering (M.Sc.)</p>
+        <p class="tagline" data-i18n="heroSubtitle">Embedded Systems | Medical Robotics | Additive Manufacturing</p>
+      </div>
+      <div class="hero-about">
+        <ul class="hero-about-list">
+          <li data-i18n="about1"></li>
+          <li data-i18n="about2"></li>
+          <li data-i18n="about3"></li>
+          <li data-i18n="about4"></li>
+          <li data-i18n="about5"></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== Education ===== -->
+  <section id="education">
+    <div class="section-inner">
+      <h2 class="section-title" data-i18n="educationTitle">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3><span data-i18n="edu1Label">Master</span></h3>
+          <p class="detail" data-i18n="edu1Degree">Medical Engineering and Assistance Systems (M.Sc.)</p>
+          <p class="meta"><span data-i18n="edu1School">Technical University of Munich</span> &middot; <span data-i18n="edu1Date">Apr 2022 — Oct 2025</span></p>
+          <p class="detail" data-i18n="edu1Focus">Focus: Embedded Systems, Medical Robotics, Additive Manufacturing (3D Printing)</p>
+          <p class="detail" data-i18n="edu1Thesis">Thesis: A Bio-Inspired Dual-Material Tendon-Driven Continuum Robot with Electromagnetic Navigation for Improved Controllability (Grade: 1.0 / Highest Distinction)</p>
+        </div>
+        <div class="timeline-item">
+          <h3><span data-i18n="edu2Label">Bachelor</span></h3>
+          <p class="detail" data-i18n="edu2Degree">Mechatronic Engineering (B.Eng.)</p>
+          <p class="meta"><span data-i18n="edu2School">Harbin Institute of Technology</span> &middot; <span data-i18n="edu2Date">Sep 2014 — Jul 2018</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section id="experience">
+    <div class="section-inner">
+      <h2 class="section-title" data-i18n="experienceTitle">Research & Engineering Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3 data-i18n="exp1Title">HIWI (Research Assistant)</h3>
+          <p class="meta"><span data-i18n="exp1Company">Technical University of Munich, Munich</span> &middot; <span data-i18n="exp1Date">May 2024 — Oct 2025</span></p>
+          <ul>
+            <li data-i18n="exp1Desc1"></li>
+            <li data-i18n="exp1Desc2"></li>
+            <li data-i18n="exp1Desc3"></li>
+            <li data-i18n="exp1Desc4"></li>
+          </ul>
+        </div>
+        <div class="timeline-item">
+          <h3 data-i18n="exp2Title">Working Student (Mechanical Testing)</h3>
+          <p class="meta"><span data-i18n="exp2Company">Hillrom, Munich</span> &middot; <span data-i18n="exp2Date">Jul 2022 — May 2023</span></p>
+          <ul>
+            <li data-i18n="exp2Desc1"></li>
+            <li data-i18n="exp2Desc2"></li>
+            <li data-i18n="exp2Desc3"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects ===== -->
+  <section id="projects">
+    <div class="section-inner">
+      <h2 class="section-title" data-i18n="projectsTitle">Projects</h2>
+
+      <div class="project-card">
+        <h3 data-i18n="proj1Title">High-Durability, High-Payload Soft–Rigid Hybrid Tendon-Driven Continuum Robot</h3>
+        <div class="project-body">
+          <p class="project-desc" data-i18n="proj1Desc"></p>
+          <video class="project-video" controls preload="metadata">
+            <source src="video1.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="project-keywords">
+          <span data-i18n="proj1Keywords_1">Kinetostatic Modeling</span>
+          <span data-i18n="proj1Keywords_2">Friction Compensation</span>
+          <span data-i18n="proj1Keywords_3">EM Tracking</span>
+          <span data-i18n="proj1Keywords_4">Control Validation</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 data-i18n="proj2Title">Musculoskeletal-Inspired Soft–Rigid Hybrid Continuum Robot with Embodied Safety</h3>
+        <div class="project-body">
+          <p class="project-desc" data-i18n="proj2Desc"></p>
+          <video class="project-video" controls preload="metadata">
+            <source src="video2.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="project-keywords">
+          <span data-i18n="proj2Keywords_1">Safe Interaction</span>
+          <span data-i18n="proj2Keywords_2">Sensor Integration</span>
+          <span data-i18n="proj2Keywords_3">Quasi-Static Modeling</span>
+          <span data-i18n="proj2Keywords_4">Payload Testing</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 data-i18n="proj3Title">Soft–Rigid Hybrid Structure Design, Modeling, and Experimental Validation for TDCR</h3>
+        <p class="project-subtitle" data-i18n="proj3Subtitle">Master's Thesis</p>
+        <div class="project-body">
+          <p class="project-desc" data-i18n="proj3Desc"></p>
+          <video class="project-video" controls preload="metadata">
+            <source src="video3.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="project-keywords">
+          <span data-i18n="proj3Keywords_1">Modeling Framework</span>
+          <span data-i18n="proj3Keywords_2">Embedded Control</span>
+          <span data-i18n="proj3Keywords_3">Sensor Fusion</span>
+          <span data-i18n="proj3Keywords_4">Experimental Platform</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 data-i18n="proj4Title">Three-Finger Soft Gripper with Independent Actuation and Axial Reinforcement</h3>
+        <div class="project-body">
+          <p class="project-desc" data-i18n="proj4Desc"></p>
+          <video class="project-video" controls preload="metadata">
+            <source src="video4.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="project-keywords">
+          <span data-i18n="proj4Keywords_1">Independent Actuation</span>
+          <span data-i18n="proj4Keywords_2">Tendon Routing</span>
+          <span data-i18n="proj4Keywords_3">Force Control</span>
+          <span data-i18n="proj4Keywords_4">Nitinol Reinforcement</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3 data-i18n="proj5Title">Workspace Reconfiguration of TDCR via Concentric Rod Mechanism</h3>
+        <div class="project-body">
+          <p class="project-desc" data-i18n="proj5Desc"></p>
+          <video class="project-video" controls preload="metadata">
+            <source src="video5.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="project-keywords">
+          <span data-i18n="proj5Keywords_1">Workspace Planning</span>
+          <span data-i18n="proj5Keywords_2">Kinetostatic Modeling</span>
+          <span data-i18n="proj5Keywords_3">Motion Control</span>
+          <span data-i18n="proj5Keywords_4">Pick-and-Place</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== Publications ===== -->
+  <section id="publications">
+    <div class="section-inner">
+      <h2 class="section-title" data-i18n="publicationsTitle">Publications & Manuscripts</h2>
+      <ol class="pub-list">
+        <li>
+          <span class="pub-title" data-i18n="pub1">Enhancing Durability and Payload Capacity of Tendon-Driven Continuum Robots Using a Multimaterial Soft–Rigid Hybrid Structure.</span><br/>
+          <span class="pub-journal" data-i18n="pub1Journal">IEEE/ASME Transactions on Mechatronics</span>,
+          <span class="pub-status" data-i18n="pub1Status">under review (2nd round)</span>
+        </li>
+        <li>
+          <span class="pub-title" data-i18n="pub2">Bridging Precision and Safety: A Durable Soft-Rigid Hybrid Tendon-Driven Continuum Robot for Confined Surgical Workspaces.</span><br/>
+          <span class="pub-journal" data-i18n="pub2Journal">IEEE Transactions on Medical Robotics and Bionics</span>,
+          <span class="pub-status" data-i18n="pub2Status">under review (1st round)</span>
+        </li>
+        <li>
+          <span class="pub-title" data-i18n="pub3">Workspace Reconfiguration in Tendon-Driven Continuum Robots via a Concentric Rod Mechanism.</span><br/>
+          <span class="pub-journal" data-i18n="pub3Journal">IEEE/ASME Transactions on Mechatronics</span>,
+          <span class="pub-status" data-i18n="pub3Status">under review (1st round)</span>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+
+  <!-- ===== Contact ===== -->
+  <section id="contact">
+    <div class="section-inner">
+      <h2 class="section-title" data-i18n="contactTitle">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-icon">&#9993;</div>
+          <a href="mailto:wenyoung0801@gmail.com" data-i18n="contactEmail">wenyoung0801@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">&#9742;</div>
+          <span data-i18n="contactPhone">+49 15206331457</span>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">&#9873;</div>
+          <span data-i18n="contactLocation">Munich, Germany</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <p data-i18n="footer">&copy; 2026 Zhen Wen. All rights reserved.</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
