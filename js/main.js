@@ -1,15 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let currentLang = localStorage.getItem("lang") || "zh";
-
-  const langBtn = document.getElementById("lang-toggle");
   const navLinks = document.querySelectorAll(".nav-link");
 
   function setLang(lang) {
-    currentLang = lang;
-    localStorage.setItem("lang", lang);
-    document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
-    langBtn.textContent = lang === "en" ? "中文" : "EN";
-
+    document.documentElement.lang = "en";
     document.querySelectorAll("[data-i18n]").forEach((el) => {
       const key = el.getAttribute("data-i18n");
       if (translations[lang] && translations[lang][key]) {
@@ -17,10 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   }
-
-  langBtn.addEventListener("click", () => {
-    setLang(currentLang === "en" ? "zh" : "en");
-  });
 
   // Smooth scroll for nav links
   navLinks.forEach((link) => {
@@ -64,5 +53,5 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Initialize
-  setLang(currentLang);
+  setLang("en");
 });

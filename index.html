@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,12 +23,11 @@
       <span class="nav-brand">Zhen Wen</span>
       <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">&#9776;</button>
       <ul class="nav-menu" id="nav-menu">
+        <li><a href="#publications" class="nav-link" data-i18n="navPublications">Publications</a></li>
+        <li><a href="#projects" class="nav-link" data-i18n="navProjects">Projects</a></li>
         <li><a href="#education" class="nav-link" data-i18n="navEducation">Education</a></li>
         <li><a href="#experience" class="nav-link" data-i18n="navExperience">Experience</a></li>
-        <li><a href="#projects" class="nav-link" data-i18n="navProjects">Projects</a></li>
-        <li><a href="#publications" class="nav-link" data-i18n="navPublications">Publications</a></li>
         <li><a href="#contact" class="nav-link" data-i18n="navContact">Contact</a></li>
-        <li><button class="lang-btn" id="lang-toggle">中文</button></li>
       </ul>
     </div>
   </nav>
@@ -40,7 +39,7 @@
       <div class="hero-text">
         <h1 data-i18n="heroName">Zhen Wen</h1>
         <p class="subtitle" data-i18n="heroTitle">Medical Engineering (M.Sc.)</p>
-        <p class="tagline" data-i18n="heroSubtitle">Embedded Systems | Medical Robotics | Additive Manufacturing</p>
+        <p class="tagline" data-i18n="heroSubtitle">Medical Robotics | Additive Manufacturing | Computational Modeling</p>
       </div>
       <div class="hero-about">
         <ul class="hero-about-list">
@@ -54,52 +53,42 @@
     </div>
   </header>
 
-  <!-- ===== Education ===== -->
-  <section id="education">
+  <!-- ===== Publications ===== -->
+  <section id="publications">
     <div class="section-inner">
-      <h2 class="section-title" data-i18n="educationTitle">Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3><span data-i18n="edu1Label">Master</span></h3>
-          <p class="detail" data-i18n="edu1Degree">Medical Engineering and Assistance Systems (M.Sc.)</p>
-          <p class="meta"><span data-i18n="edu1School">Technical University of Munich</span> &middot; <span data-i18n="edu1Date">Apr 2022 — Oct 2025</span></p>
-          <p class="detail" data-i18n="edu1Focus">Focus: Embedded Systems, Medical Robotics, Additive Manufacturing (3D Printing)</p>
-          <p class="detail" data-i18n="edu1Thesis">Thesis: A Bio-Inspired Dual-Material Tendon-Driven Continuum Robot with Electromagnetic Navigation for Improved Controllability (Grade: 1.0 / Highest Distinction)</p>
-        </div>
-        <div class="timeline-item">
-          <h3><span data-i18n="edu2Label">Bachelor</span></h3>
-          <p class="detail" data-i18n="edu2Degree">Mechatronic Engineering (B.Eng.)</p>
-          <p class="meta"><span data-i18n="edu2School">Harbin Institute of Technology</span> &middot; <span data-i18n="edu2Date">Sep 2014 — Jul 2018</span></p>
-        </div>
-      </div>
-    </div>
-  </section>
+      <h2 class="section-title" data-i18n="publicationsTitle">Publications</h2>
 
-  <!-- ===== Experience ===== -->
-  <section id="experience">
-    <div class="section-inner">
-      <h2 class="section-title" data-i18n="experienceTitle">Research & Engineering Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <h3 data-i18n="exp1Title">HIWI (Research Assistant)</h3>
-          <p class="meta"><span data-i18n="exp1Company">Technical University of Munich, Munich</span> &middot; <span data-i18n="exp1Date">May 2024 — Oct 2025</span></p>
-          <ul>
-            <li data-i18n="exp1Desc1"></li>
-            <li data-i18n="exp1Desc2"></li>
-            <li data-i18n="exp1Desc3"></li>
-            <li data-i18n="exp1Desc4"></li>
-          </ul>
-        </div>
-        <div class="timeline-item">
-          <h3 data-i18n="exp2Title">Working Student (Mechanical Testing)</h3>
-          <p class="meta"><span data-i18n="exp2Company">Hillrom, Munich</span> &middot; <span data-i18n="exp2Date">Jul 2022 — May 2023</span></p>
-          <ul>
-            <li data-i18n="exp2Desc1"></li>
-            <li data-i18n="exp2Desc2"></li>
-            <li data-i18n="exp2Desc3"></li>
-          </ul>
-        </div>
-      </div>
+      <h3 class="pub-group-title" data-i18n="pubFirstAuthor">First-Author Publications</h3>
+      <ol class="pub-list">
+        <li>
+          <span class="pub-authors" data-i18n="pub1Authors"></span><br/>
+          <span class="pub-title" data-i18n="pub1"></span><br/>
+          <span class="pub-journal" data-i18n="pub1Journal"></span>,
+          <span class="pub-status" data-i18n="pub1Status"></span>
+        </li>
+        <li>
+          <span class="pub-authors" data-i18n="pub2Authors"></span><br/>
+          <span class="pub-title" data-i18n="pub2"></span><br/>
+          <span class="pub-journal" data-i18n="pub2Journal"></span>,
+          <span class="pub-status" data-i18n="pub2Status"></span>
+        </li>
+      </ol>
+
+      <h3 class="pub-group-title" data-i18n="pubCoAuthor">Co-Authored Publications</h3>
+      <ol class="pub-list pub-list-continued">
+        <li>
+          <span class="pub-authors" data-i18n="pub3Authors"></span><br/>
+          <span class="pub-title" data-i18n="pub3"></span><br/>
+          <span class="pub-journal" data-i18n="pub3Journal"></span>,
+          <span class="pub-status" data-i18n="pub3Status"></span>
+        </li>
+        <li>
+          <span class="pub-authors" data-i18n="pub4Authors"></span><br/>
+          <span class="pub-title" data-i18n="pub4"></span><br/>
+          <span class="pub-journal" data-i18n="pub4Journal"></span>,
+          <span class="pub-status" data-i18n="pub4Status"></span>
+        </li>
+      </ol>
     </div>
   </section>
 
@@ -182,27 +171,44 @@
     </div>
   </section>
 
-  <!-- ===== Publications ===== -->
-  <section id="publications">
+  <!-- ===== Education ===== -->
+  <section id="education">
     <div class="section-inner">
-      <h2 class="section-title" data-i18n="publicationsTitle">Publications & Manuscripts</h2>
-      <ol class="pub-list">
-        <li>
-          <span class="pub-title" data-i18n="pub1">Enhancing Durability and Payload Capacity of Tendon-Driven Continuum Robots Using a Multimaterial Soft–Rigid Hybrid Structure.</span><br/>
-          <span class="pub-journal" data-i18n="pub1Journal">IEEE/ASME Transactions on Mechatronics</span>,
-          <span class="pub-status" data-i18n="pub1Status">under review (2nd round)</span>
-        </li>
-        <li>
-          <span class="pub-title" data-i18n="pub2">Bridging Precision and Safety: A Durable Soft-Rigid Hybrid Tendon-Driven Continuum Robot for Confined Surgical Workspaces.</span><br/>
-          <span class="pub-journal" data-i18n="pub2Journal">IEEE Transactions on Medical Robotics and Bionics</span>,
-          <span class="pub-status" data-i18n="pub2Status">under review (1st round)</span>
-        </li>
-        <li>
-          <span class="pub-title" data-i18n="pub3">Workspace Reconfiguration in Tendon-Driven Continuum Robots via a Concentric Rod Mechanism.</span><br/>
-          <span class="pub-journal" data-i18n="pub3Journal">IEEE/ASME Transactions on Mechatronics</span>,
-          <span class="pub-status" data-i18n="pub3Status">under review (1st round)</span>
-        </li>
-      </ol>
+      <h2 class="section-title" data-i18n="educationTitle">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3><span data-i18n="edu1Label">Master</span></h3>
+          <p class="detail" data-i18n="edu1Degree">Medical Engineering and Assistance Systems (M.Sc.)</p>
+          <p class="meta"><span data-i18n="edu1School">Technical University of Munich</span> &middot; <span data-i18n="edu1Date">Apr 2022 — Oct 2025</span></p>
+          <p class="detail" data-i18n="edu1Focus">Focus: Embedded Systems, Medical Robotics, Additive Manufacturing (3D Printing)</p>
+          <p class="detail" data-i18n="edu1Thesis">Thesis: A Bio-Inspired Dual-Material Tendon-Driven Continuum Robot with Electromagnetic Navigation for Improved Controllability (Grade: 1.0 / Highest Distinction)</p>
+        </div>
+        <div class="timeline-item">
+          <h3><span data-i18n="edu2Label">Bachelor</span></h3>
+          <p class="detail" data-i18n="edu2Degree">Mechatronic Engineering (B.Eng.)</p>
+          <p class="meta"><span data-i18n="edu2School">Harbin Institute of Technology</span> &middot; <span data-i18n="edu2Date">Sep 2014 — Jul 2018</span></p>
+          <p class="detail" data-i18n="edu2Focus">Focus: Finite Element Analysis and Simulation (Solidworks + Ansys)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Experience ===== -->
+  <section id="experience">
+    <div class="section-inner">
+      <h2 class="section-title" data-i18n="experienceTitle">Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <h3 data-i18n="exp1Title">HIWI (Research Assistant)</h3>
+          <p class="meta"><span data-i18n="exp1Company">Technical University of Munich, Munich</span> &middot; <span data-i18n="exp1Date">May 2024 — Oct 2025</span></p>
+          <ul>
+            <li data-i18n="exp1Desc1"></li>
+            <li data-i18n="exp1Desc2"></li>
+            <li data-i18n="exp1Desc3"></li>
+            <li data-i18n="exp1Desc4"></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -230,7 +236,7 @@
 
   <!-- ===== Footer ===== -->
   <footer class="footer">
-    <p data-i18n="footer">&copy; 2026 Zhen Wen. All rights reserved.</p>
+    <p data-i18n="footer">&copy; 2026 Zhen Wen</p>
   </footer>
 
 <script src="js/i18n.js"></script>

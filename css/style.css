@@ -94,20 +94,6 @@ a:hover {
   border-bottom-color: var(--color-accent);
 }
 
-.lang-btn {
-  background: rgba(255, 255, 255, 0.15);
-  color: #fff;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  padding: 0.3rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  transition: background 0.2s;
-}
-
-.lang-btn:hover {
-  background: rgba(255, 255, 255, 0.25);
-}
 
 .menu-toggle {
   display: none;
@@ -358,9 +344,20 @@ section:nth-child(even) .timeline-item::before {
 }
 
 /* ===== Publications ===== */
+.pub-group-title {
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  margin: 1.5rem 0 1rem;
+  font-weight: 600;
+}
+
 .pub-list {
   list-style: none;
   counter-reset: pub;
+}
+
+.pub-list-continued {
+  counter-reset: pub 2;
 }
 
 .pub-list li {
@@ -378,6 +375,11 @@ section:nth-child(even) .timeline-item::before {
   color: var(--color-accent);
 }
 
+.pub-list .pub-authors {
+  font-size: 0.93rem;
+  color: var(--color-text);
+}
+
 .pub-list .pub-title {
   font-weight: 600;
 }
@@ -390,6 +392,16 @@ section:nth-child(even) .timeline-item::before {
 .pub-list .pub-status {
   color: var(--color-accent);
   font-size: 0.9rem;
+}
+
+.pub-list .pub-status a {
+  color: #e74c3c;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.pub-list .pub-status a:hover {
+  text-decoration: underline;
 }
 
 /* ===== Skills ===== */
