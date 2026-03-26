@@ -16,11 +16,7 @@ const translations = {
     heroCV: "Download CV",
 
     // About
-    about1: "M.Sc. in Medical Engineering from TUM and B.Eng. in Mechatronic Engineering from HIT, with interdisciplinary training in medical devices, mechanics and robotic systems",
-    about2: "Research experience in mechanics-based modeling, numerical simulation, and experimental validation, developed through continuum robotics projects in medical engineering",
-    about3: "End-to-end project execution from CAD design, prototyping, and sensor integration to model development, control implementation, and quantitative testing",
-    about4: "Proficient in MATLAB, Python, and C++ for simulation, data analysis, optimization, and experimental automation",
-    about5: "Strong background in academic research, including manuscript preparation, experimental study design, and supervision of engineering project work",
+    aboutText: "I am a medical engineering graduate from the Technical University of Munich with a background in mechatronic engineering and a strong interest in robotics for healthcare. My work has mainly focused on continuum and soft-rigid hybrid robots, where I enjoy combining mechanical design, computational modeling, prototyping, and sensor integration to build systems that are both functional and biologically inspired.",
 
     // Education
     educationTitle: "Education",
