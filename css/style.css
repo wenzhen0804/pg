@@ -191,6 +191,7 @@ section:nth-child(even) {
   line-height: 1.7;
   opacity: 0.85;
   margin: 0;
+  text-align: justify;
 }
 
 .hero-avatar {
