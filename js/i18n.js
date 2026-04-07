@@ -92,7 +92,7 @@ const translations = {
 
     pub2Authors: '<b>Z. Wen</b>, T. C. Lueth, and Y. Sun',
     pub2: '"A Musculoskeletal-Inspired Soft–Rigid Hybrid Tendon-Driven Continuum Robot with Integrated Friction-Aware Modeling and Experimental Validation,"',
-    pub2Journal: "Mechatronics (Elsevier)",
+    pub2Journal: "Mechatronics",
     pub2Status: 'under review. Preprint: <a href="https://doi.org/10.5281/zenodo.19149760" target="_blank">[DOI]</a>',
 
     pub3Authors: 'R. Wen, <b>Z. Wen</b>, T. C. Lueth, and Y. Sun',
