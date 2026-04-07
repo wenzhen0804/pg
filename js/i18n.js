@@ -88,7 +88,7 @@ const translations = {
     pub1Authors: '<b>Z. Wen</b>, F. Pancheri, Z. Wang, T. C. Lueth, and Y. Sun',
     pub1: '"Enhancing Durability and Payload Capacity of Tendon-Driven Continuum Robots Using a Multimaterial Soft–Rigid Hybrid Structure,"',
     pub1Journal: "IEEE/ASME Transactions on Mechatronics",
-    pub1Status: "under review (3rd round)",
+    pub1Status: "accepted",
 
     pub2Authors: '<b>Z. Wen</b>, T. C. Lueth, and Y. Sun',
     pub2: '"A Musculoskeletal-Inspired Soft–Rigid Hybrid Tendon-Driven Continuum Robot with Integrated Friction-Aware Modeling and Experimental Validation,"',
@@ -103,7 +103,7 @@ const translations = {
     pub4Authors: 'Y. Sun, <b>Z. Wen</b>, and T. C. Lueth',
     pub4: '"Workspace Reconfiguration in Tendon-Driven Continuum Robots via a Concentric Rod Mechanism,"',
     pub4Journal: "IEEE/ASME Transactions on Mechatronics",
-    pub4Status: "under review (1st round)",
+    pub4Status: "under review",
 
     // Skills
     skillsTitle: "Skills",
