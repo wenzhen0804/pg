@@ -12,7 +12,7 @@ const translations = {
     // Hero
     heroName: "Zhen Wen",
     heroTitle: "Medical Engineering (M.Sc.)",
-    heroSubtitle: "Medical Robotics | Additive Manufacturing | Computational Modeling",
+    heroSubtitle: "Soft Robotics | Additive Manufacturing | Computational Modeling",
     heroCV: "Download CV",
 
     // About
