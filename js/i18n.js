@@ -30,7 +30,7 @@ const translations = {
     edu2Degree: "Mechatronic Engineering (B.Eng.)",
     edu2School: "Harbin Institute of Technology",
     edu2Date: "Sep 2014 — Jul 2018",
-    edu2Focus: "Focus: Finite Element Analysis and Simulation (Solidworks + Ansys)",
+    edu2Focus: "Focus: Mechatronic systems, fluid mechanics & hydraulics, microfluidic technology",
 
     // Experience
     experienceTitle: "Experience",
