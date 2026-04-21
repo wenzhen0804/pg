@@ -3,7 +3,6 @@ const translations = {
     // Nav
     navAbout: "About",
     navEducation: "Education",
-    navExperience: "Experience",
     navProjects: "Projects",
     navPublications: "Publications",
     navSkills: "Skills",
@@ -31,16 +30,6 @@ const translations = {
     edu2School: "Harbin Institute of Technology",
     edu2Date: "Sep 2014 — Jul 2018",
     edu2Focus: "Focus: Mechatronic systems, fluid mechanics & hydraulics, microfluidic technology",
-
-    // Experience
-    experienceTitle: "Experience",
-    exp1Title: "Research Assistant",
-    exp1Company: "Technical University of Munich, Munich",
-    exp1Date: "May 2024 — Dec 2025",
-    exp1Desc1: "Conducted research and engineering support on robotic system prototyping, sensor integration, and embedded implementation.",
-    exp1Desc2: "Designed and manufactured complex robotic joints and housings using SLS (Selective Laser Sintering) and FDM (Fused Deposition Modeling), improving structural strength-to-weight ratio and manufacturability.",
-    exp1Desc3: "Integrated electromagnetic sensors into robotic systems with algorithmic fusion to enhance end-effector perception accuracy in unstructured environments.",
-    exp1Desc4: "Developed and debugged STM32 microcontroller firmware in C/C++ for real-time sensor data acquisition, filtering, and high-speed communication.",
 
     // Projects
     projectsTitle: "Projects",
